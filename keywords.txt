@@ -6,16 +6,29 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-ETimer	       KEYWORD1
+ETimer KEYWORD1
+EThread KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
 
-check          KEYWORD2
-setDelay       KEYWORD2
+check KEYWORD2
+reset KEYWORD2
+setDelay KEYWORD2
+getDelay KEYWORD2
+getLastTriggerTime KEYWORD2
+setCallback KEYWORD2
+start KEYWORD2
+pause KEYWORD2
+update KEYWORD2
+hasCallback KEYWORD2
+getState KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
 
+STOPED LITERAL1
+RUNNING LITERAL1
+EasyTimers.h LITERAL1
